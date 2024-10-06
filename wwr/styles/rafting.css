@@ -1,0 +1,47 @@
+
+h1 {
+    font-family: Dosis;
+}
+
+h2 {
+    font-family: Dosis;
+}
+
+p {
+    font-family: Urbanist;
+}
+
+.hero div {
+    position: relative;
+    height: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #4E5166;
+}
+
+.hero article {
+    position: absolute;
+} 
+
+.hero article img {
+    float: right;
+    max-width: 200px;
+}
+
+.gallery img {
+    max-width: 200px;
+}
+
+footer img {
+    max-width: 25px;
+}
