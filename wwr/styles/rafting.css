@@ -1,17 +1,36 @@
-
-h1 {
-    font-family: Dosis;
-}
-
-h2 {
-    font-family: Dosis;
-}
-
-p {
+:root {
     font-family: Urbanist;
 }
 
-.hero div {
+h1 {
+    font-family: Dosis;
+    color: #B9B7A7;
+}
+
+h2 {
+    text-align: center;
+    font-family: Dosis;
+    color: #B9B7A7;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+    margin-left: 10%;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+.hero {
     position: relative;
     height: 100%;
 }
@@ -24,13 +43,20 @@ p {
 
 .hero h1 {
     position: absolute;
+    width: 100%;   
     top: 20px;
-    left: 20px;
-    background-color: #4E5166;
+    background-color: #4E5166CC;
+    text-align: center;
 }
 
 .hero article {
     position: absolute;
+    display: flex;
+    top: 120px;
+    width: 100%;
+    background-color: #7C90A0CC;
+    justify-content: space-around;
+    color: white;
 } 
 
 .hero article img {
@@ -38,10 +64,48 @@ p {
     max-width: 200px;
 }
 
+.history {
+    display: flex;
+    justify-content: space-around;
+}
+
+.history p {
+    max-width: 33%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
 .gallery img {
     max-width: 200px;
 }
 
+footer{
+    position: relative;
+    min-height: 80px;
+    background-color: #7C90A0;
+}
+
+footer p{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socials{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+
 footer img {
     max-width: 25px;
+}
+
+footer a {
+    text-decoration: none;
 }
