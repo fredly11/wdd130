@@ -1,16 +1,17 @@
 :root {
     font-family: Urbanist;
+    background-color: #b8cdde;
 }
 
 h1 {
     font-family: Dosis;
-    color: #B9B7A7;
+    color: #8a887b;
 }
 
 h2 {
     text-align: center;
     font-family: Dosis;
-    color: #B9B7A7;
+    color: #8a887b;
 }
 
 header {
@@ -18,6 +19,7 @@ header {
     grid-template-columns: 1fr 2fr;
     column-gap: 15px;
     align-items: center;
+    background-color: #7C90A0;
 }
 
 header img {
@@ -45,7 +47,7 @@ header a{
     position: absolute;
     width: 100%;   
     top: 20px;
-    background-color: #4E5166CC;
+    background-color: #4E5166DE;
     text-align: center;
 }
 
@@ -114,7 +116,6 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7C90A0;
 }
 
 .map {
@@ -154,6 +155,7 @@ form {
     grid-template-columns: 1fr 2fr;
     align-items: center;
     grid-gap: 10px;
+    margin-right: 20px;
 }
 
 fieldset {
@@ -202,4 +204,124 @@ button {
 
 button:hover {
     background-color: #4E5166;
+}
+
+.call {
+    text-align: center;
+    margin: 40px;
+}
+
+.call-button {
+    text-decoration: none;
+    background-color: #4E5166;
+    color: white;
+    padding: 7px;
+}
+
+.newsletter {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #4E5166;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 337px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.grid-item h3 {
+    font-family: Dosis;
+    color: #4E5166;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-family: Urbanist;
+    color: #333;
+    max-width: 90%;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.grid-item h3 {
+    font-family: Dosis;
+    color: #4E5166;
+    margin-bottom: 10px;
+}
+
+.grid-item p {
+    font-family: Urbanist;
+    color: #333;
+    max-width: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-family: Urbanist;
+}
+
+table th {
+    background-color: #4E5166;
+    color: white;
+    font-family: Dosis;
+}
+
+table td {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+table tbody tr:hover {
+    background-color: #eaeaea;
 }
